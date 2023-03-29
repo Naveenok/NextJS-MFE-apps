@@ -1,4 +1,11 @@
+import dynamic from "next/dynamic";
 import Link from "next/link";
+
+const MFE2 = dynamic(() => import(`mfe2/mfe2UI`), {
+  loading: () => <p>Loading component...</p>,
+  ssr: false,
+});
+console.log("inside MFE1")
 
 const NavBar = () => {
   return (
@@ -35,6 +42,7 @@ export default function Home() {
       }}
     >
       <NavBar />
+      <MFE2 />
       <Footer />
     </div>
   );

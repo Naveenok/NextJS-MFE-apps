@@ -1,3 +1,14 @@
 export default function Home() {
-  return <h1>MFE2</h1>;
+  return (
+    <h1
+      style={{
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        height: "100vh",
+      }}
+    >
+      MFE2
+    </h1>
+  );
 }
