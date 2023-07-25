@@ -14,7 +14,7 @@ const nextConfig = {
         new NextFederationPlugin({
           name: 'mfe1',
           remotes: {
-            mfe2: `mfe2@https://naveenok-laughing-space-cod-wvvp6r6pp6whvggr-3000.preview.app.github.dev/_next/static/chunks/remoteEntry.js`,
+            mfe2: `mfe2@https://naveenok-upgraded-space-dollop-4qq54j454vx3qxx-3001.preview.app.github.dev/_next/static/chunks/remoteEntry.js`,
           },
           filename: 'static/chunks/remoteEntry.js',
         })
